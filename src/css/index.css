@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("../images/perpustakaan.jpg");
+    /* background-color: #54d2d2; */
+    background-size: cover;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh; //it will make the min height of main are 100vh which means it content will fully fill the height of the screen
+}
+
+@media (max-width: 800px) {
+    main{
+      flex-direction: column;
+    }
+}
+
+.article_one .container{
+    padding: 1.5rem 4rem;
+}
+.article_one{
+    background-color: white;
+    border-bottom-right-radius: 280px;
+    
+}
+.article_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 50%;
+    margin: auto auto;
+}
+.card{
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;   
+    font-family: "Montserrat", sans-serif; 
+    /* background-color: rgba(255, 255, 255, 0.8);     */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+    border-radius: 2rem;    
+}
+.headline{
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: capitalize;
+}
+.subheading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+}
+.logo{
+    padding: 35px;
+}
+.footer{
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+}
+.logo .logo_login{
+    display: block;
+    position: absolute;
+}
+.buttonlogin button {
+    padding: 10px 20px;
+    width: 80%;
+    border-radius: 3rem;
+    margin: 5px;
+}
+.buttonlogin button:hover{
+    background-color: white;
+}
+.btn1{
+    background-color: #ffcb00;
+    border: 2px solid #ffcb00;
+}
+.btn2{
+    background-color: white;
+}
+.btn3{
+    background-color: #ffcb00;
+    border: 2px solid #ffcb00;
+}
